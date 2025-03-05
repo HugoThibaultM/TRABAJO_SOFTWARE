@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+  background-color: #222; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Contenedor de la lista de partidos */
+.matches-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Cada partido */
+.match {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Información del partido */
+.match-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.match-time {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.match-teams {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Contenedor de cuotas */
+.match-odds {
+  display: flex;
+  gap: 10px;
+}
+
+.odd {
+  background-color: #444;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: yellow;
+  text-align: center;
+}
