@@ -12,6 +12,7 @@ const Verificar = () => {
 
   return (
     <div>
+      
       <input id="input"
         type="text"
         placeholder="Tu respuesta"

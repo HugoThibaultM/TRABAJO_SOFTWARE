@@ -4,10 +4,7 @@ const Verificar = () => {
   const [respuesta, setRespuesta] = useState(""); 
 
   const verificarRespuesta = () => {
-
     window.location.href = "http://localhost:8001/sesion";
-
-
   };
   
 
